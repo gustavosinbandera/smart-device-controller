@@ -1,0 +1,75 @@
+# ─────────────────────────────────────────────────────────────
+# Mongoose OS build artifacts
+build/
+*.bin
+*.manifest
+.last_build_id
+
+# Mongoose OS dependencies
+deps/
+mongoose-os/            # FW sources descargados por mos
+
+# Carpetas generadas por mos fs-flash
+fs_image*
+fs/
+
+# Logs y dumps
+*.log
+*.core
+core.*
+
+# Config locales (no compartir)
+mos.yml.local
+*.local.yaml
+*.local.json
+*.local.conf
+
+# Certificados y llaves (TU carpeta solicitada)
+certs/
+
+# Credenciales Wi-Fi o usuarios si los almacenas aparte
+wifi_creds.*
+user_creds.*
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs / editores
+.vscode/
+.idea/
+*.iml
+*.launch
+*.sublime*
+*.code-workspace
+
+# CMake / CLion
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Node / npm si tienes scripts
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Python virtual env
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# Backup files
+*.bak
+*.orig
+*.old
