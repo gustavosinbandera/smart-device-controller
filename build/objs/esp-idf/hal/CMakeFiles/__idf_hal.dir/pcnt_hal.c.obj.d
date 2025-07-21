@@ -1,0 +1,36 @@
+esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj: \
+ /opt/Espressif/esp-idf/components/hal/pcnt_hal.c \
+ /mongoose-os/include/mgos_iram.h \
+ /opt/Espressif/esp-idf/components/hal/include/hal/pcnt_hal.h \
+ /opt/Espressif/esp-idf/components/soc/esp32/include/soc/pcnt_struct.h \
+ /opt/Espressif/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_default_types.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/features.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_newlib_version.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
+ /opt/Espressif/esp-idf/components/hal/esp32/include/hal/pcnt_ll.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/newlib.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/config.h \
+ /opt/Espressif/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /opt/Espressif/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stddef.h \
+ /opt/Espressif/esp-idf/components/newlib/platform_include/sys/reent.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/reent.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_types.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_types.h \
+ /opt/Espressif/esp-idf/components/newlib/platform_include/sys/lock.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h \
+ /opt/Espressif/esp-idf/components/newlib/platform_include/assert.h \
+ /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/config/sdkconfig.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/assert.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_locale.h \
+ /opt/Espressif/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h \
+ /opt/Espressif/esp-idf/components/hal/include/hal/pcnt_types.h

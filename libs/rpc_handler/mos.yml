@@ -1,0 +1,18 @@
+author: Gustavo Grisales
+type: lib
+version: 1
+description: RPC custom Commands
+
+platforms: [ esp32 ]
+
+sources:
+  - src
+includes:
+  - include
+  
+config_schema:
+
+
+libs:
+  - origin: ../io_board
+manifest_version: 2017-09-29

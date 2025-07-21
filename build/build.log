@@ -1,0 +1,442 @@
+Reading lib "rpc-service-fs" at "https://github.com/mongoose-os-libs/rpc-service-fs"...
+Reading lib "rpc-uart" at "https://github.com/mongoose-os-libs/rpc-uart"...
+Reading lib "ota-http-server" at "https://github.com/mongoose-os-libs/ota-http-server"...
+Reading lib "rpc-service-ota" at "https://github.com/mongoose-os-libs/rpc-service-ota"...
+Reading lib "aws" at "https://github.com/mongoose-os-libs/aws"...
+Reading lib "mqtt" at "https://github.com/mongoose-os-libs/mqtt"...
+Reading lib "ca-bundle" at "https://github.com/mongoose-os-libs/ca-bundle"...
+Reading lib "zz_boards" at "https://github.com/mongoose-os-libs/boards"...
+Reading lib "rpc-common" at "https://github.com/mongoose-os-libs/rpc-common"...
+Reading lib "rpc-service-config" at "https://github.com/mongoose-os-libs/rpc-service-config"...
+Reading lib "core" at "https://github.com/mongoose-os-libs/core"...
+Reading lib "io_board" at "./libs/io_board"...
+Reading lib "ota-http-client" at "https://github.com/mongoose-os-libs/ota-http-client"...
+io_board: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board"
+Reading lib "adc" at "https://github.com/mongoose-os-libs/adc"...
+Reading lib "rpc_handler" at "./libs/rpc_handler"...
+rpc_handler: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler"
+Handling lib "io_board" at "./libs/io_board"...
+Reading lib "a9g_module" at "./libs/networking-common/a9g_module"...
+Handling lib "rpc_handler" at "./libs/rpc_handler"...
+a9g_module: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module"
+Handling lib "a9g_module" at "./libs/networking-common/a9g_module"...
+ota-http-client: Checking out master...
+rpc-service-fs: Checking out master...
+ota-http-server: Checking out master...
+aws: Checking out master...
+rpc-service-ota: Checking out master...
+rpc-uart: Checking out master...
+adc: Checking out master...
+zz_boards: Checking out master...
+rpc-service-config: Checking out master...
+core: Checking out master...
+mqtt: Checking out master...
+ca-bundle: Checking out master...
+rpc-common: Checking out master...
+ota-http-client: Done, hash d6088c559c603f74a645a8b0dff135723c994f2d
+ota-http-client: Hash unchanged at d6088c559c603f74a645a8b0dff135723c994f2d (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client")
+ota-http-client: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client"
+Handling lib "ota-http-client" at "https://github.com/mongoose-os-libs/ota-http-client"...
+ota-http-server: Done, hash 6adb6f6bf66390a6adf7defb2f85c1f7d3aaea60
+ota-http-server: Hash unchanged at 6adb6f6bf66390a6adf7defb2f85c1f7d3aaea60 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-server")
+ota-http-server: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-server"
+Handling lib "ota-http-server" at "https://github.com/mongoose-os-libs/ota-http-server"...
+rpc-service-fs: Done, hash 39437663b14759671a37e9670a46c65e5519c369
+rpc-service-fs: Hash unchanged at 39437663b14759671a37e9670a46c65e5519c369 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs")
+rpc-service-fs: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs"
+Handling lib "rpc-service-fs" at "https://github.com/mongoose-os-libs/rpc-service-fs"...
+aws: Done, hash 14bf2ae4f7e2991aeddf76d2981aa52955478152
+aws: Hash unchanged at 14bf2ae4f7e2991aeddf76d2981aa52955478152 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws")
+aws: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws"
+rpc-uart: Done, hash d58fee363e9e7176d9079b37c8ecfde1d5a2a3dd
+rpc-uart: Hash unchanged at d58fee363e9e7176d9079b37c8ecfde1d5a2a3dd (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart")
+rpc-uart: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart"
+Handling lib "aws" at "https://github.com/mongoose-os-libs/aws"...
+rpc-service-ota: Done, hash 469f8867499cc070e9cdab8470dd72ce754af550
+rpc-service-ota: Hash unchanged at 469f8867499cc070e9cdab8470dd72ce754af550 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota")
+rpc-service-ota: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota"
+Handling lib "rpc-uart" at "https://github.com/mongoose-os-libs/rpc-uart"...
+Handling lib "rpc-service-ota" at "https://github.com/mongoose-os-libs/rpc-service-ota"...
+zz_boards: Done, hash 655e618f527f2c7183c752af08d2978e6524fffa
+zz_boards: Hash unchanged at 655e618f527f2c7183c752af08d2978e6524fffa (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/boards")
+zz_boards: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/boards"
+adc: Done, hash 80bd7797e66c9c9568ce11cdc9b639d28c6ae831
+adc: Hash unchanged at 80bd7797e66c9c9568ce11cdc9b639d28c6ae831 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc")
+adc: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc"
+Handling lib "adc" at "https://github.com/mongoose-os-libs/adc"...
+core: Done, hash a7c07b323839c2d13db6921bfdee17a4069c5126
+core: Hash unchanged at a7c07b323839c2d13db6921bfdee17a4069c5126 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core")
+core: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core"
+rpc-service-config: Done, hash fd7de7b3141114bc42e4c578a9bea9c27e2b4636
+ca-bundle: Done, hash 64ed37bf9904b5a260bc74cee8f20bd7d940d703
+rpc-service-config: Hash unchanged at fd7de7b3141114bc42e4c578a9bea9c27e2b4636 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config")
+ca-bundle: Hash unchanged at 64ed37bf9904b5a260bc74cee8f20bd7d940d703 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ca-bundle")
+ca-bundle: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ca-bundle"
+rpc-service-config: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config"
+mqtt: Done, hash 7ba84b6e6382d908069b6bec7ba8487dfdf23094
+mqtt: Hash unchanged at 7ba84b6e6382d908069b6bec7ba8487dfdf23094 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt")
+mqtt: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt"
+Handling lib "ca-bundle" at "https://github.com/mongoose-os-libs/ca-bundle"...
+Handling lib "rpc-service-config" at "https://github.com/mongoose-os-libs/rpc-service-config"...
+Handling lib "mqtt" at "https://github.com/mongoose-os-libs/mqtt"...
+Handling lib "core" at "https://github.com/mongoose-os-libs/core"...
+rpc-common: Done, hash 406ce5d187b3eb6979b7e5205e728b5dcc84463e
+rpc-common: Hash unchanged at 406ce5d187b3eb6979b7e5205e728b5dcc84463e (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common")
+rpc-common: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common"
+Handling lib "zz_boards" at "https://github.com/mongoose-os-libs/boards"...
+Handling lib "rpc-common" at "https://github.com/mongoose-os-libs/rpc-common"...
+Lib "adc" at "https://github.com/mongoose-os-libs/adc": already handled...
+Lib "aws" at "https://github.com/mongoose-os-libs/aws": already handled...
+Lib "ota-http-client" at "https://github.com/mongoose-os-libs/ota-http-client": already handled...
+Lib "io_board" at "../io_board": overridden by same at "./libs/io_board"...
+Reading lib "ota-common" at "https://github.com/mongoose-os-libs/ota-common"...
+ota-common: Checking out master...
+ota-common: Done, hash 74d0ccabe58ebb30feffa823869f35509c94b6a4
+ota-common: Hash unchanged at 74d0ccabe58ebb30feffa823869f35509c94b6a4 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common")
+ota-common: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common"
+Handling lib "ota-common" at "https://github.com/mongoose-os-libs/ota-common"...
+Lib "ota-http-client" at "https://github.com/mongoose-os-libs/ota-http-client": already handled...
+Reading lib "http-server" at "https://github.com/mongoose-os-libs/http-server"...
+Lib "ota-common" at "https://github.com/mongoose-os-libs/ota-common": already handled...
+http-server: Checking out master...
+http-server: Done, hash 99b56d05d28e6e939dca3bd92d0a1bfea2d6507f
+http-server: Hash unchanged at 99b56d05d28e6e939dca3bd92d0a1bfea2d6507f (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server")
+http-server: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server"
+Handling lib "http-server" at "https://github.com/mongoose-os-libs/http-server"...
+Reading lib "vfs-common" at "https://github.com/mongoose-os-libs/vfs-common"...
+Lib "rpc-common" at "https://github.com/mongoose-os-libs/rpc-common": already handled...
+vfs-common: Checking out master...
+vfs-common: Done, hash 9b93211dd6bc00768d8157ab9f7b3bfc41c36202
+vfs-common: Hash unchanged at 9b93211dd6bc00768d8157ab9f7b3bfc41c36202 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common")
+vfs-common: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common"
+Handling lib "vfs-common" at "https://github.com/mongoose-os-libs/vfs-common"...
+Reading lib "shadow" at "https://github.com/mongoose-os-libs/shadow"...
+Lib "ca-bundle" at "https://github.com/mongoose-os-libs/ca-bundle": already handled...
+Lib "mqtt" at "https://github.com/mongoose-os-libs/mqtt": already handled...
+shadow: Checking out master...
+shadow: Done, hash 355b109b82a9420c07c71911b095b316384a3315
+shadow: Hash unchanged at 355b109b82a9420c07c71911b095b316384a3315 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow")
+shadow: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow"
+Handling lib "shadow" at "https://github.com/mongoose-os-libs/shadow"...
+Lib "rpc-common" at "https://github.com/mongoose-os-libs/rpc-common": already handled...
+Lib "rpc-common" at "https://github.com/mongoose-os-libs/rpc-common": already handled...
+Lib "ota-http-client" at "https://github.com/mongoose-os-libs/ota-http-client": already handled...
+Lib "core" at "https://github.com/mongoose-os-libs/core": already handled...
+Lib "rpc-common" at "https://github.com/mongoose-os-libs/rpc-common": already handled...
+Lib "core" at "https://github.com/mongoose-os-libs/core": already handled...
+Reading lib "mongoose" at "https://github.com/mongoose-os-libs/mongoose"...
+mongoose: Checking out master...
+mongoose: Done, hash 24f3c520fdfd5d7c33ff2734d4be42aab75107e9
+mongoose: Hash unchanged at 24f3c520fdfd5d7c33ff2734d4be42aab75107e9 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose")
+mongoose: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose"
+Handling lib "mongoose" at "https://github.com/mongoose-os-libs/mongoose"...
+Lib "mongoose" at "https://github.com/mongoose-os-libs/mongoose": already handled...
+Lib "mongoose" at "https://github.com/mongoose-os-libs/mongoose": already handled...
+Reading lib "mbedtls" at "https://github.com/mongoose-os-libs/mbedtls"...
+mbedtls: Checking out master...
+mbedtls: Done, hash 06963a1e31fb77af9bd3a1f09f6fa70f964a75d4
+mbedtls: Hash unchanged at 06963a1e31fb77af9bd3a1f09f6fa70f964a75d4 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls")
+mbedtls: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls"
+Handling lib "mbedtls" at "https://github.com/mongoose-os-libs/mbedtls"...
+Lib "core" at "https://github.com/mongoose-os-libs/core": already handled...
+Lib "vfs-common" at "https://github.com/mongoose-os-libs/vfs-common": already handled...
+Lib "mbedtls" at "https://github.com/mongoose-os-libs/mbedtls": already handled...
+Reading lib "vfs-fs-spiffs" at "https://github.com/mongoose-os-libs/vfs-fs-spiffs"...
+Reading lib "freertos" at "https://github.com/mongoose-os-libs/freertos"...
+Reading lib "vfs-fs-lfs" at "https://github.com/mongoose-os-libs/vfs-fs-lfs"...
+freertos: Checking out master...
+vfs-fs-spiffs: Checking out master...
+vfs-fs-lfs: Checking out master...
+vfs-fs-spiffs: Done, hash 926cb85944b15956a2cfade4a17a0f4858b0e199
+vfs-fs-spiffs: Hash unchanged at 926cb85944b15956a2cfade4a17a0f4858b0e199 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs")
+vfs-fs-spiffs: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs"
+Handling lib "vfs-fs-spiffs" at "https://github.com/mongoose-os-libs/vfs-fs-spiffs"...
+vfs-fs-lfs: Done, hash 1acdcdcfff15d521a153f31acce5440327b263b6
+vfs-fs-lfs: Hash unchanged at 1acdcdcfff15d521a153f31acce5440327b263b6 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs")
+vfs-fs-lfs: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs"
+freertos: Done, hash 7353be33725f625eeed81440fd4ea1c1b55afe87
+freertos: Hash unchanged at 7353be33725f625eeed81440fd4ea1c1b55afe87 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos")
+freertos: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos"
+Handling lib "vfs-fs-lfs" at "https://github.com/mongoose-os-libs/vfs-fs-lfs"...
+Handling lib "freertos" at "https://github.com/mongoose-os-libs/freertos"...
+Lib "vfs-common" at "https://github.com/mongoose-os-libs/vfs-common": already handled...
+Lib "vfs-common" at "https://github.com/mongoose-os-libs/vfs-common": already handled...
+Reading lib "wifi" at "https://github.com/mongoose-os-libs/wifi"...
+Reading lib "bt-common" at "https://github.com/mongoose-os-libs/bt-common"...
+bt-common: Checking out master...
+wifi: Checking out master...
+bt-common: Done, hash a8aae713f4fae16169f09c27e07f707a5f52a570
+bt-common: Hash unchanged at a8aae713f4fae16169f09c27e07f707a5f52a570 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common")
+bt-common: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common"
+Handling lib "bt-common" at "https://github.com/mongoose-os-libs/bt-common"...
+wifi: Done, hash 417e3e8be6d09e5e807c55148d746db96939e613
+wifi: Hash unchanged at 417e3e8be6d09e5e807c55148d746db96939e613 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi")
+wifi: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi"
+Handling lib "wifi" at "https://github.com/mongoose-os-libs/wifi"...
+Lib "core" at "https://github.com/mongoose-os-libs/core": already handled...
+Lib "mbedtls" at "https://github.com/mongoose-os-libs/mbedtls": already handled...
+Reading lib "lwip" at "https://github.com/mongoose-os-libs/lwip"...
+lwip: Checking out master...
+lwip: Done, hash 7dc363628a906f77adf894127a5e273e96673573
+lwip: Hash unchanged at 7dc363628a906f77adf894127a5e273e96673573 (dir "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip")
+lwip: Prepared local dir: "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip"
+Handling lib "lwip" at "https://github.com/mongoose-os-libs/lwip"...
+mongoose-os: Going to fetch module from https://github.com/cesanta/mongoose-os
+mongoose-os: Checking out master...
+mongoose-os: Done, hash 103fa27e058d89281f2c40ac2376d0752bc7c969
+mbedtls_module: Going to fetch module from https://github.com/mongoose-os/mbedtls
+mbedtls_module: Checking out 2.16.11-cesanta3...
+mbedtls_module: Done, hash 5da571d8473455c8ae2c1ff6f94ee3bbd178ba21
+Prebuilt binary for "mongoose" already exists at "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libmongoose-esp32-latest.a"
+Prebuilt binary for "ota-common" already exists at "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libota-common-esp32-latest.a"
+Prebuilt binary for "ota-http-client" already exists at "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libota-http-client-esp32-latest.a"
+Prebuilt binary for "ota-http-server" already exists at "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libota-http-server-esp32-latest.a"
+Prebuilt binary for "rpc-service-ota" already exists at "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/librpc-service-ota-esp32-latest.a"
+Sources: [/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/src/main.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/src/a9g_module.cpp /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src/esp32/esp32_adc.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/src/mgos_freertos.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/src/mgos_freertos_core_dump.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/mgos_mbedtls.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/mgos_ssl_if_mbedtls.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/esp32/esp32_aes.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/esp32/esp32_bignum.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/aes.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/aes_atca.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/aesni.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/arc4.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/aria.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/asn1parse.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/asn1write.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/base64.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/bignum.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/blowfish.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/camellia.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ccm.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/certs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/chacha20.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/chachapoly.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/cipher.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/cipher_wrap.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/cmac.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ctr_drbg.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/debug.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/des.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/dhm.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ecdh.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ecdsa.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ecjpake.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ecp.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ecp_atca.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ecp_curves.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/entropy.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/entropy_poll.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/error.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/gcm.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/havege.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/hkdf.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/hmac_drbg.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/md.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/md2.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/md4.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/md5.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/md_wrap.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/memory_buffer_alloc.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/net_sockets.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/nist_kw.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/oid.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/padlock.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pem.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pk.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pk_wrap.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pkcs11.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pkcs12.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pkcs5.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pkparse.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/pkwrite.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/platform.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/platform_util.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/poly1305.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ripemd160.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/rsa.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/rsa_internal.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/sha1.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/sha256.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/sha512.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_cache.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_ciphersuites.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_cli.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_cookie.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_srv.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_ticket.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/ssl_tls.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/threading.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/timing.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/version.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/version_features.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509_create.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509_crl.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509_crt.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509_csr.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509write_crt.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/x509write_csr.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library/xtea.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/mgos_vfs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/mgos_vfs_dev.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/mgos_vfs_internal.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx/esp32xx_fs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx/esp32xx_fs_crypt.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx/esp32xx_vfs_dev_partition.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs/lfs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs/lfs_util.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1/lfs1.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1/lfs1_util.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/src/mgos_core.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src/mgos_mqtt.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src/mgos_mqtt_conn.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src/mgos_mqtt_ws_conn.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/src/mgos_shadow.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src/mgos_aws.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src/mgos_aws_greengrass.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src/mgos_aws_shadow.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/src/io_board.cpp /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/src/mgos_http_server.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src/mg_rpc.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src/mg_rpc_channel.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src/mg_rpc_channel_http.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src/mgos_rpc.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/src/mgos_service_config.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs/src/mgos_service_fs.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/src/mgos_rpc_channel_uart.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/src/rpc_handler.cpp /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/mgos_bt.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/mgos_bt_gap.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/mgos_bt_gatts.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/mgos_bt_js.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/mgos_bt.cpp /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx/esp32xx_bt.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx/esp32xx_bt_gap.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx/esp32xx_bt_gattc.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx/esp32xx_bt_gatts.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/src/mgos_lwip.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/mgos_wifi.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/mgos_wifi_sta.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/mjs_wifi.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/esp32xx/esp32xx_wifi.c /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/mgos_deps_init.c]
+Include dirs: [/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include/esp32 /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include/esp32 /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include/esp32xx /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1 /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/spiffs /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/esp32xx /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include/esp32xx /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include/esp32xx /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/include /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/include]
+Binary libs: [/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libmongoose-esp32-latest.a /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libota-common-esp32-latest.a /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libota-http-client-esp32-latest.a /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/libota-http-server-esp32-latest.a /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/librpc-service-ota-esp32-latest.a]
+Building IoT_Rele_Board...
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board" to "/app"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os" to "/mongoose-os"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src/esp32" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src/esp32"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/esp32" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/esp32"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include/esp32" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include/esp32"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include/esp32" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include/esp32"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/spiffs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/spiffs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include/esp32xx" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include/esp32xx"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/include" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/include"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ca-bundle/fs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ca-bundle/fs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/fs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/fs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs"
+mount from "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen" to "/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen"
+Docker arguments: run --name mos_build_2025-07-20T18-55-33-00_6197793669877231581 --rm -i -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src/esp32xx -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board:/app -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-fs/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src/spiffs -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/include/esp32xx -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-uart/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-common/src/esp32xx -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/wifi/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ca-bundle/fs:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ca-bundle/fs -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/esp32:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/src/esp32 -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/src/esp32xx -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include/esp32xx -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/shadow/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include/esp32:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mbedtls/include/esp32 -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/esp32xx -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/fs:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/fs -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/core/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/rpc_handler/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/freertos/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/io_board/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/aws/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mongoose/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/libs/networking-common/a9g_module/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include/esp32:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/include/esp32 -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-common/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/ota-http-client/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-ota/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mbedtls/library -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-lfs/littlefs1 -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/http-server/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/lwip/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os:/mongoose-os -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-common/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/spiffs:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/include/spiffs -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/vfs-fs-spiffs/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/mqtt/src -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src/esp32:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/adc/src/esp32 -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/include:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/rpc-service-config/include -v /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include/esp32xx:/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/bt-common/include/esp32xx --user 1000:1000 docker.io/mgos/esp32-build:4.4.1-r7 /bin/bash -c nice make '-j' '12' '-C' '/app' '-f' '/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/deps/modules/mongoose-os/platforms/esp32/Makefile.build' 'all' 'MGOS_VARS_FILE=/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/vars.mk'
+make: Entering directory '/app'
+cd /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs && \
+  cmake -DCOMPONENTS="xtensa xtensa-debug-module app_trace app_update bootloader bootloader_support cxx driver efuse esp32 esp_common esp_event esp_gdbstub esp_ipc esp_hw_support esp_netif esp_phy esp_pm esp_ringbuf esp_rom esp_system esp_timer espcoredump esptool_py freertos hal heap log lwip micro-ecc newlib nvs_flash partition_table pthread soc spi_flash vfs main mosapp esp_adc_cal  bt esp_wifi wpa_supplicant esp_wifi wpa_supplicant " \
+        -DEXTRA_COMPONENT_DIRS="/app/components" \
+        -DFFI_EXPORTS_C="/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/ffi_exports.c" \
+        -DSDKCONFIG="/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/sdkconfig" \
+        -DSDKCONFIG_DEFAULTS="/home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/sdkconfig.defaults" \
+        /mongoose-os/platforms/esp32
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+Python requirements from /opt/Espressif/esp-idf/requirements.txt are satisfied.
+-- Project sdkconfig file /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/sdkconfig
+Loading defaults file /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/gen/sdkconfig.defaults...
+-- App "IoT_Rele_Board" version: 2.20.0-73-g103fa27e
+-- Adding linker script /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+-- Adding linker script /opt/Espressif/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt console cxx driver efuse esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hw_support esp_ipc esp_netif esp_phy esp_pm esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py freertos hal heap ieee802154 log lwip main mbedtls mosapp newlib nvs_flash openthread partition_table pthread soc spi_flash tcpip_adapter vfs wpa_supplicant xtensa
+-- Component paths: /opt/Espressif/esp-idf/components/app_trace /opt/Espressif/esp-idf/components/app_update /opt/Espressif/esp-idf/components/bootloader /opt/Espressif/esp-idf/components/bootloader_support /opt/Espressif/esp-idf/components/bt /opt/Espressif/esp-idf/components/console /opt/Espressif/esp-idf/components/cxx /opt/Espressif/esp-idf/components/driver /opt/Espressif/esp-idf/components/efuse /opt/Espressif/esp-idf/components/esp32 /opt/Espressif/esp-idf/components/esp_adc_cal /opt/Espressif/esp-idf/components/esp_common /opt/Espressif/esp-idf/components/esp_eth /opt/Espressif/esp-idf/components/esp_event /opt/Espressif/esp-idf/components/esp_gdbstub /opt/Espressif/esp-idf/components/esp_hw_support /opt/Espressif/esp-idf/components/esp_ipc /opt/Espressif/esp-idf/components/esp_netif /opt/Espressif/esp-idf/components/esp_phy /opt/Espressif/esp-idf/components/esp_pm /opt/Espressif/esp-idf/components/esp_ringbuf /opt/Espressif/esp-idf/components/esp_rom /opt/Espressif/esp-idf/components/esp_system /opt/Espressif/esp-idf/components/esp_timer /opt/Espressif/esp-idf/components/esp_wifi /opt/Espressif/esp-idf/components/espcoredump /opt/Espressif/esp-idf/components/esptool_py /opt/Espressif/esp-idf/components/freertos /opt/Espressif/esp-idf/components/hal /opt/Espressif/esp-idf/components/heap /opt/Espressif/esp-idf/components/ieee802154 /opt/Espressif/esp-idf/components/log /opt/Espressif/esp-idf/components/lwip /mongoose-os/platforms/esp32/main /opt/Espressif/esp-idf/components/mbedtls /mongoose-os/platforms/esp32/components/mosapp /opt/Espressif/esp-idf/components/newlib /opt/Espressif/esp-idf/components/nvs_flash /opt/Espressif/esp-idf/components/openthread /opt/Espressif/esp-idf/components/partition_table /opt/Espressif/esp-idf/components/pthread /opt/Espressif/esp-idf/components/soc /opt/Espressif/esp-idf/components/spi_flash /opt/Espressif/esp-idf/components/tcpip_adapter /opt/Espressif/esp-idf/components/vfs /opt/Espressif/esp-idf/components/wpa_supplicant /opt/Espressif/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs
+make -C /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs all
+[  1%] Built target partition_table_bin
+[  1%] Built target memory_ld
+[  1%] Built target blank_ota_data
+[  1%] Built target _project_elf_src
+Consolidate compiler generated dependencies of target __idf_app_trace
+[  1%] Performing build step for 'bootloader'
+[  1%] Built target __idf_app_trace
+Consolidate compiler generated dependencies of target __idf_cxx
+[  1%] Built target __idf_cxx
+[  1%] Built target _project_elf_src
+[  5%] Built target __idf_log
+Consolidate compiler generated dependencies of target __idf_newlib
+[  3%] Built target __idf_newlib
+[ 11%] Built target __idf_esp_rom
+[ 13%] Built target __idf_esp_common
+Scanning dependencies of target __idf_freertos
+Consolidate compiler generated dependencies of target __idf_freertos
+[ 16%] Built target __idf_xtensa
+[  6%] Built target __idf_freertos
+Consolidate compiler generated dependencies of target __idf_esp_timer
+[ 27%] Built target __idf_esp_hw_support
+[  6%] Built target __idf_esp_timer
+Consolidate compiler generated dependencies of target __idf_esp_common
+[ 29%] Built target __idf_esp_system
+[  6%] Built target __idf_esp_common
+[ 38%] Built target __idf_efuse
+Scanning dependencies of target __idf_xtensa
+Consolidate compiler generated dependencies of target __idf_xtensa
+[  7%] Built target __idf_xtensa
+[ 62%] Built target __idf_bootloader_support
+Consolidate compiler generated dependencies of target __idf_esp_hw_support
+[ 64%] Built target __idf_spi_flash
+[ 11%] Built target __idf_esp_hw_support
+[ 67%] Built target __idf_micro-ecc
+Consolidate compiler generated dependencies of target __idf_soc
+[ 13%] Built target __idf_soc
+[ 89%] Built target __idf_soc
+Consolidate compiler generated dependencies of target __idf_heap
+[ 93%] Built target __idf_hal
+[ 14%] Built target __idf_heap
+Consolidate compiler generated dependencies of target __idf_log
+[ 95%] Built target __idf_main
+[ 14%] Built target __idf_log
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_project_binary
+Bootloader binary size 0x6460 bytes. 0xba0 bytes (10%) free.
+[100%] Built target bootloader_check_size
+Consolidate compiler generated dependencies of target __idf_lwip
+[100%] Built target app
+[ 25%] Built target __idf_lwip
+[ 25%] No install step for 'bootloader'
+Consolidate compiler generated dependencies of target __idf_console
+[ 26%] Built target __idf_console
+[ 26%] Completed 'bootloader'
+Consolidate compiler generated dependencies of target __idf_esp_wifi
+[ 27%] Built target __idf_esp_wifi
+[ 28%] Built target bootloader
+Consolidate compiler generated dependencies of target __idf_wpa_supplicant
+[ 36%] Built target __idf_wpa_supplicant
+Consolidate compiler generated dependencies of target __idf_esp_event
+[ 37%] Built target __idf_esp_event
+Consolidate compiler generated dependencies of target __idf_esp_netif
+[ 38%] Built target __idf_esp_netif
+Consolidate compiler generated dependencies of target __idf_tcpip_adapter
+[ 38%] Built target __idf_tcpip_adapter
+Consolidate compiler generated dependencies of target __idf_esp_eth
+[ 39%] Built target __idf_esp_eth
+Consolidate compiler generated dependencies of target __idf_vfs
+[ 40%] Built target __idf_vfs
+Consolidate compiler generated dependencies of target __idf_hal
+[ 45%] Built target __idf_hal
+Scanning dependencies of target __idf_esp_rom
+Consolidate compiler generated dependencies of target __idf_esp_rom
+[ 46%] Built target __idf_esp_rom
+Scanning dependencies of target __idf_esp_system
+Consolidate compiler generated dependencies of target __idf_esp_system
+[ 50%] Built target __idf_esp_system
+Consolidate compiler generated dependencies of target __idf_esp_phy
+[ 51%] Built target __idf_esp_phy
+Consolidate compiler generated dependencies of target __idf_espcoredump
+[ 52%] Built target __idf_espcoredump
+Scanning dependencies of target __idf_esp_gdbstub
+Consolidate compiler generated dependencies of target __idf_esp_gdbstub
+[ 52%] Built target __idf_esp_gdbstub
+Consolidate compiler generated dependencies of target __idf_pthread
+[ 53%] Built target __idf_pthread
+Consolidate compiler generated dependencies of target __idf_nvs_flash
+[ 54%] Built target __idf_nvs_flash
+Consolidate compiler generated dependencies of target __idf_spi_flash
+[ 57%] Built target __idf_spi_flash
+Consolidate compiler generated dependencies of target __idf_driver
+[ 61%] Built target __idf_driver
+Consolidate compiler generated dependencies of target __idf_esp_ringbuf
+[ 61%] Built target __idf_esp_ringbuf
+Consolidate compiler generated dependencies of target __idf_esp_pm
+[ 61%] Built target __idf_esp_pm
+Scanning dependencies of target __idf_esp_ipc
+Consolidate compiler generated dependencies of target __idf_esp_ipc
+[ 61%] Built target __idf_esp_ipc
+Consolidate compiler generated dependencies of target __idf_bootloader_support
+[ 63%] Built target __idf_bootloader_support
+Consolidate compiler generated dependencies of target __idf_app_update
+[ 64%] Built target __idf_app_update
+Consolidate compiler generated dependencies of target __idf_efuse
+[ 65%] Built target __idf_efuse
+Consolidate compiler generated dependencies of target __idf_mbedtls
+[ 66%] Built target __idf_mbedtls
+Consolidate compiler generated dependencies of target __idf_esp_adc_cal
+[ 67%] Built target __idf_esp_adc_cal
+Scanning dependencies of target __idf_bt
+Consolidate compiler generated dependencies of target __idf_bt
+[ 78%] Built target __idf_bt
+Consolidate compiler generated dependencies of target __idf_mosapp
+[ 95%] Built target __idf_mosapp
+Scanning dependencies of target __idf_main
+Consolidate compiler generated dependencies of target __idf_main
+[100%] Built target __idf_main
+[100%] Built target __ldgen_output_sections.ld
+Consolidate compiler generated dependencies of target IoT_Rele_Board.elf
+[100%] Built target IoT_Rele_Board.elf
+[100%] Built target gen_project_binary
+IoT_Rele_Board.bin binary size 0x11db20 bytes. Smallest app partition is 0x180000 bytes. 0x624e0 bytes (26%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+    App size: 1170208 of 1572864 (74%)
+  GEN   /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/fw_temp/manifest.json
+  ZIP   /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/fw/IoT_Rele_Board-esp32-last.zip
+     Adding /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/fw_temp/IoT_Rele_Board.bin
+     Adding /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/fw_temp/bootloader.bin
+     Adding /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/fw_temp/fs.img
+     Adding /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/fw_temp/otadata.bin
+     Adding /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/fw_temp/partition-table.bin
+  Built IoT_Rele_Board/esp32 version 2.0 (20250720-234911)
+make: Leaving directory '/app'
+Success, built IoT_Rele_Board/esp32 version 2.0 (20250720-234911).
+Firmware saved to /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/fw.zip

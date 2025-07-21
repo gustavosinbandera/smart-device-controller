@@ -1,0 +1,37 @@
+esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj: \
+ /opt/Espressif/esp-idf/components/bt/common/osi/hash_functions.c \
+ /mongoose-os/include/mgos_iram.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/string.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/newlib.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_newlib_version.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/config.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/features.h \
+ /opt/Espressif/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /opt/Espressif/esp-idf/components/newlib/platform_include/sys/reent.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/reent.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /opt/Espressif/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stddef.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_types.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_types.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_default_types.h \
+ /opt/Espressif/esp-idf/components/newlib/platform_include/sys/lock.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h \
+ /opt/Espressif/esp-idf/components/newlib/platform_include/assert.h \
+ /home/gustavo/Documents/PROYECTO_MONGOOSE/IoT_Rele_Board/build/objs/config/sdkconfig.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdlib.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/stdlib.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/alloca.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_locale.h \
+ /opt/Espressif/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdint.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/assert.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/strings.h \
+ /opt/Espressif/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/string.h \
+ /opt/Espressif/esp-idf/components/bt/common/osi/include/osi/hash_functions.h \
+ /opt/Espressif/esp-idf/components/bt/common/osi/include/osi/hash_map.h \
+ /opt/Espressif/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include/stdbool.h

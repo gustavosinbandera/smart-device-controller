@@ -1,0 +1,29 @@
+author: Gustavo Grisales
+type: lib
+version: 1
+description: Wrapper around AWS Jobs Lib for OTA
+
+platforms: [ esp32 ]
+
+sources:
+  - src
+includes:
+  - include
+  
+config_schema:
+    - ["ota", "o", {title: "OTA settings"}]
+    - ["ota.job_id", "s", "", {title: "ota job id"}]
+    - ["ota.fw_version", "s", "", {title: "new firmware version"}]
+    - ["ota.http_ota_timeout_sec", "i", 120, {title: "http ota timeout"}]
+    - ["ota.commit_timeout_sec", "i", 180, {title: "ota commit timeout"}]
+    - ["ota.http_max_retries", "i", 3, {title: "how many retries to use if http OTA fails"}]
+    - ["device.fw_version", "s", "TEST_1.00", {title: "firmware version"}]
+    - ["mqtt.max_queue_length", "i", 15, {title: "Maximum queue length for buffering"}]
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/aws
+    version: 2.19.1
+  - origin: https://github.com/mongoose-os-libs/ota-http-client
+    version: latest
+  - origin: https://github.com/mongoose-os-libs/adc
+manifest_version: 2017-09-29
