@@ -26,7 +26,7 @@ mos.yml.local
 
 # Certificados y llaves (TU carpeta solicitada)
 certs/
-
+certs2/
 # Credenciales Wi-Fi o usuarios si los almacenas aparte
 wifi_creds.*
 user_creds.*
