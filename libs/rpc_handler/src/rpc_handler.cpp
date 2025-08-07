@@ -16,6 +16,7 @@ void RpcHandler::init() {
   mg_rpc_add_handler(mgos_rpc_get_global(), "IoBoard.SetRelay", "{index: %d, state: %B}", handleSetRelay, NULL);
   mg_rpc_add_handler(mgos_rpc_get_global(), "IoBoard.ReadAnalog", "", handleReadAnalog, NULL);
   mg_rpc_add_handler(mgos_rpc_get_global(), "IoBoard.ReportAll", "", handleReportAll, NULL);
+  mg_rpc_add_handler(mgos_rpc_get_global(),"IoBoard.SetBuzzer","{state: %B}",handleSetBuzzer,nullptr);
 }
 
 void RpcHandler::handleToggleRelay(struct mg_rpc_request_info *ri, void *cb_arg,
@@ -23,8 +24,8 @@ void RpcHandler::handleToggleRelay(struct mg_rpc_request_info *ri, void *cb_arg,
   int index;
   if (json_scanf(args.p, args.len, "{index: %d}", &index) == 1) {
     IoBoard::getInstance().toggleRelay(index);
+    //IoBoard::getInstance().syncShadowAfterCommand(index);
     mg_rpc_send_responsef(ri, "{status: %Q, index: %d}", "toggled", index);
-
   } else {
     mg_rpc_send_errorf(ri, 400, "Missing index");
   }
@@ -40,6 +41,9 @@ void RpcHandler::handleGetRelay(struct mg_rpc_request_info *ri, void *cb_arg,
     mg_rpc_send_errorf(ri, 400, "Missing index");
   }
 }
+
+
+
 
 void RpcHandler::handleSetRelay(struct mg_rpc_request_info *ri, void *cb_arg,
                                 struct mg_rpc_frame_info *fi, struct mg_str args) {
@@ -89,13 +93,15 @@ void RpcHandler::handleStatus(struct mg_rpc_request_info *ri, void *cb_arg,
 
   json_printf(&out, "{");
 
+  /* ---------- RELAYS ---------- */
   for (int i = 0; i < IOBOARD_NUM_RELAYS; ++i) {
     char key[16];
     snprintf(key, sizeof(key), "relay%d", i + 1);
-    bool val = mgos_gpio_read(IoBoard::getInstance().relayPins[i]);
+    bool val = IoBoard::getInstance().getRelay(i);   // ← usa la variable
     json_printf(&out, "%s%Q:%B", (i > 0 ? "," : ""), key, val);
   }
 
+  /* ---------- INPUTS ---------- */
   for (int i = 0; i < IOBOARD_NUM_INPUTS; ++i) {
     char key[16];
     snprintf(key, sizeof(key), "input%d", i + 1);
@@ -103,16 +109,35 @@ void RpcHandler::handleStatus(struct mg_rpc_request_info *ri, void *cb_arg,
     json_printf(&out, ",%Q:%B", key, val);
   }
 
+  /* ---------- ANALOG ---------- */
   int analog = mgos_adc_read(IoBoard::getInstance().analogPin);
   json_printf(&out, ",%Q:%d", "analog", analog);
 
-  bool buzz = mgos_gpio_read(IoBoard::getInstance().buzzerPin);
-  json_printf(&out, ",%Q:%B", "buzzer", buzz);
+  /* ---------- BUZZER ---------- */
+  json_printf(&out, ",%Q:%B", "buzzer",
+              IoBoard::getInstance().getBuzzer());
 
   json_printf(&out, "}");
-
   mg_rpc_send_responsef(ri, "%s", msg);
 }
+
+
+/* ---------- RPC: IoBoard.SetBuzzer ---------- */
+void RpcHandler::handleSetBuzzer(struct mg_rpc_request_info *ri,
+                                 void *cb_arg,
+                                 struct mg_rpc_frame_info *fi,
+                                 struct mg_str args) {
+  bool state;
+  if (json_scanf(args.p, args.len, "{state: %B}", &state) == 1) {
+    IoBoard::getInstance().setBuzzer(state);
+    mg_rpc_send_responsef(ri,
+                          "{status:%Q, state:%B}",
+                          "set", state);
+  } else {
+    mg_rpc_send_errorf(ri, 400, "Missing state");
+  }
+}
+
 
 extern "C" {
 int mgos_rpc_handler_init(void) {

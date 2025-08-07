@@ -27,4 +27,8 @@ static void handleReadAnalog(struct mg_rpc_request_info *ri, void *cb_arg,
 static void handleReportAll(struct mg_rpc_request_info *ri, void *cb_arg,
                             struct mg_rpc_frame_info *fi, struct mg_str args);
 
+static void handleSetBuzzer(struct mg_rpc_request_info *ri,
+                                 void *cb_arg,
+                                 struct mg_rpc_frame_info *fi,
+                                 struct mg_str args);
 };

@@ -24,11 +24,16 @@ class IoBoard {
   void turnOffAllRelays();
   void pulseRelay(int index, int duration_ms);
 
+  void syncRelayShadowViaMQTT(int index, bool state);
+
   void applyDelta(struct mg_str *delta);
-  void reportRelays(struct json_out *out);
+  void reportRelays();
   void reportInputs(struct json_out *out);
   void reportAnalog(struct json_out *out);
   void reportBuzzer(struct json_out *out);
+  void reportBuzzerState();
+  void setBuzzer(bool on);
+  bool getBuzzer() const;
 
   const int relayPins[IOBOARD_NUM_RELAYS] = {13, 12, 14, 27, 26, 15, 2};
   const int inputPins[IOBOARD_NUM_INPUTS] = {25, 33, 32, 35, 39, 36};

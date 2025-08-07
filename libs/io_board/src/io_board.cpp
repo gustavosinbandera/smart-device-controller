@@ -1,6 +1,11 @@
 #include "io_board.h"
 #include "frozen.h"
 #include "mgos_adc.h"
+#include "mgos_aws_shadow.h"
+#include "mgos_mqtt.h"
+
+
+bool shadow_update_suppressed = false;
 
 IoBoard &IoBoard::getInstance() {
   static IoBoard instance;
@@ -87,11 +92,10 @@ void IoBoard::applyDelta(struct mg_str *delta) {
   bool val;
 
   /* ---------- buzzer ---------- */
-  if (json_scanf(delta->p, delta->len,
-                 "{outputs:{buzzer:%B}}", &val) == 1) {
-    buzzer = val;
-    mgos_gpio_write(buzzerPin, buzzer);
+  if (json_scanf(delta->p, delta->len, "{outputs:{buzzer:%B}}", &val) == 1) {
+    setBuzzer(val);
   }
+
 
   /* ---------- relays ---------- */
   for (int i = 0; i < IOBOARD_NUM_RELAYS; ++i) {
@@ -100,48 +104,69 @@ void IoBoard::applyDelta(struct mg_str *delta) {
              "{outputs:{relays:{relay%d:%%B}}}", i + 1);
     if (json_scanf(delta->p, delta->len, fmt, &val) == 1) {
       relays[i] = val;
-      mgos_gpio_write(relayPins[i], val);
+      shadow_update_suppressed = true;
+      setRelay(i, val);
+      shadow_update_suppressed = false;
     }
   }
 }
 
 
-void IoBoard::reportRelays(struct json_out *out) {
+void IoBoard::reportRelays() {
+  char buf[512];
+  struct json_out out = JSON_OUT_BUF(buf, sizeof(buf));
+
+  json_printf(&out, "{state:{reported:{outputs:{relays:{");
   for (int i = 0; i < IOBOARD_NUM_RELAYS; ++i) {
-    json_printf(out, ",\"relay%d\":%B", i + 1, relays[i]);
+    json_printf(&out,
+                "\"relay%d\":%B%s",
+                i + 1,
+                relays[i],
+                (i < IOBOARD_NUM_RELAYS - 1) ? "," : "");
   }
+  json_printf(&out, "}}},");
+
+
+  // 🔁 Ahora escribimos desired con nulls para limpiar
+  json_printf(&out, "desired:{outputs:{relays:{");
+  for (int i = 0; i < IOBOARD_NUM_RELAYS; ++i) {
+    json_printf(&out,
+                "\"relay%d\":null%s",
+                i + 1,
+                (i < IOBOARD_NUM_RELAYS - 1) ? "," : "");
+  }
+  json_printf(&out, "}}}}}");
+
+  LOG(LL_INFO, ("[SHADOW] Reporting and clearing desired: %s", buf));
+  char topic[128];
+  snprintf(topic, sizeof(topic), "$aws/things/%s/shadow/update", mgos_sys_config_get_device_id());
+
+  mgos_mqtt_pub(topic, buf, strlen(buf), 1, false);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void IoBoard::reportInputs(struct json_out *out) {
   for (int i = 0; i < IOBOARD_NUM_INPUTS; ++i) {
     json_printf(out, ",\"input%d\":%B", i + 1, inputs[i]);
   }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void IoBoard::reportAnalog(struct json_out *out) {
   analogValue = mgos_adc_read(analogPin);
   json_printf(out, ",\"analog\":%d", analogValue);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void IoBoard::reportBuzzer(struct json_out *out) {
   json_printf(out, ",\"buzzer\":%B", buzzer);
 }
 
-
-// void IoBoard::reportState() {
-//   char msg[256];
-//   struct json_out out = JSON_OUT_BUF(msg, sizeof(msg));
-//   json_printf(&out, "{");
-
-//   reportRelays(&out);
-//   reportInputs(&out);
-//   reportAnalog(&out);
-//   reportBuzzer(&out);
-
-//   json_printf(&out, "}");
-//   mgos_shadow_updatef(0, "%s", msg);
-// }
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void IoBoard::reportState() {
   char buf[2048];                               // Amplía si tu JSON crece
   struct json_out out = JSON_OUT_BUF(buf, sizeof(buf));
@@ -182,67 +207,154 @@ void IoBoard::reportState() {
   mgos_shadow_updatef(0, "%s", buf);           // mgos añade {"state":{"reported":…}}
 }
 
-
-
-
-
-void IoBoard::reportRelayState(int index) {
-  if (index < 0 || index >= IOBOARD_NUM_RELAYS) return;
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* ---------- envía sólo la parte del buzzer ---------- */
+void IoBoard::reportBuzzerState() {
   char msg[64];
   snprintf(msg, sizeof(msg),
-           "{\"relay%d\":%s}", index + 1, relays[index] ? "true" : "false");
-
+           "{\"outputs\":{\"buzzer\":%s}}",
+           buzzer ? "true" : "false");
   mgos_shadow_updatef(0, "%s", msg);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* ---------- setter ---------- */
+void IoBoard::setBuzzer(bool on) {
+  buzzer = on;
+  mgos_gpio_write(buzzerPin, buzzer);
+  reportBuzzerState();          // sincroniza la Shadow
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* (opcional) getter */
+bool IoBoard::getBuzzer() const { return buzzer; }
+
+
+#include "mgos_aws_shadow.h"
+#include "mgos.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void IoBoard::reportRelayState(int index) {
+  if (index < 0 || index >= IOBOARD_NUM_RELAYS) return;
+
+  int relay_id = index + 1;
+  bool state = relays[index];
+
+  // Publicamos sólo reported, sin tocar desired
+  mgos_aws_shadow_updatef(
+    0,
+    "{outputs:{relays:{\"relay%d\":%B}}}",
+    relay_id, state
+  );
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void IoBoard::syncRelayShadowViaMQTT(int index, bool state) {
+  char topic[128];
+  snprintf(topic, sizeof(topic), "$aws/things/%s/shadow/update", mgos_sys_config_get_device_id());
+
+  char payload[256];
+  snprintf(payload, sizeof(payload),
+    "{"
+      "\"state\":{"
+        "\"reported\":{"
+          "\"outputs\":{\"relays\":{\"relay%d\":%s}}"
+        "},"
+        "\"desired\":{"
+          "\"outputs\":{\"relays\":{\"relay%d\":null}}"
+        "}"
+      "}"
+    "}",
+    index + 1, state ? "true" : "false",
+    index + 1
+  );
+
+  LOG(LL_INFO, ("[MQTT] Publishing shadow update: %s", payload));
+
+  bool ok = mgos_mqtt_pub(topic, payload, strlen(payload), 1 /* QoS */, false);
+  if (!ok) {
+    LOG(LL_ERROR, ("[MQTT] Failed to publish shadow update"));
+  }
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 void IoBoard::setRelay(int index, bool on) {
-  if (index >= 0 && index < IOBOARD_NUM_RELAYS) {
-    relays[index] = on;
-    mgos_gpio_write(relayPins[index], on);
+  if (index < 0 || index >= IOBOARD_NUM_RELAYS) return;
+
+  relays[index] = on;
+  mgos_gpio_write(relayPins[index], on);
+
+  if (!shadow_update_suppressed) {
+    // Publicamos reported + limpiamos desired en una sola operación
+    syncRelayShadowViaMQTT(index, on);
+  } else {
+    // Si vino desde AWS, solo reportamos el estado sin tocar desired
     reportRelayState(index);
   }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 bool IoBoard::getRelay(int index) const {
   return (index >= 0 && index < IOBOARD_NUM_RELAYS) ? relays[index] : false;
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 bool IoBoard::getInput(int index) const {
   return (index >= 0 && index < IOBOARD_NUM_INPUTS) ? inputs[index] : false;
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void IoBoard::toggleRelay(int index) {
   if (index >= 0 && index < IOBOARD_NUM_RELAYS) {
-    relays[index] = !relays[index];
-    mgos_gpio_write(relayPins[index], relays[index]);
-    reportRelayState(index);
+    bool newState = !relays[index];
+    setRelay(index, newState);
   }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void IoBoard::turnOffAllRelays() {
   for (int i = 0; i < IOBOARD_NUM_RELAYS; ++i) {
     relays[i] = false;
     mgos_gpio_write(relayPins[i], 0);
   }
-  reportState();
+
+  // Publica todos los relés en una sola llamada
+  reportRelays();
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void IoBoard::pulseRelay(int index, int duration_ms) {
   if (index < 0 || index >= IOBOARD_NUM_RELAYS) return;
 
-  relays[index] = true;
-  mgos_gpio_write(relayPins[index], 1);
-  reportRelayState(index);
+  // Encendido usando lógica centralizada
+  setRelay(index, true);
 
-  mgos_set_timer(duration_ms, 0, [](void *arg) {
-    int i = (intptr_t)arg;
-    IoBoard &board = IoBoard::getInstance();
-    board.relays[i] = false;
-    mgos_gpio_write(board.relayPins[i], 0);
-    board.reportRelayState(i);
-  }, (void *)(intptr_t)index);
+  // Usamos mgos_set_timer para apagar luego de duración
+  mgos_set_timer(duration_ms, 0,
+    [](void *arg) {
+      int i = static_cast<int>(reinterpret_cast<intptr_t>(arg));
+      IoBoard::getInstance().setRelay(i, false);  // Reutiliza setRelay
+    },
+    reinterpret_cast<void *>(static_cast<intptr_t>(index))
+  );
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 extern "C" {
 int mgos_io_board_init(void) {
